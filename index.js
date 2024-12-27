@@ -37,11 +37,6 @@ const questions = [
   },
   {
     type: "input",
-    name: "tests",
-    message: "Provide test instructions:",
-  },
-  {
-    type: "input",
     name: "github",
     message: "Enter your GitHub username:",
   },
@@ -68,7 +63,6 @@ ${data.description}
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -82,9 +76,6 @@ This project is licensed under the ${data.license} license.
 
 ## Contributing
 ${data.contributing}
-
-## Tests
-${data.tests}
 
 ## Questions
 If you have any questions, you can find me on GitHub: [${
